@@ -33,7 +33,7 @@ To install and run the system locally, follow these steps:
    cd backend
    npm start
 
-The frontend will be accessible at http://localhost:8000. 
+The frontend will be accessible at http://localhost:8000/loginPage/. 
 
 The backend code is located in the `backend` folder, while the frontend code is in the respective `public` folder.
 
