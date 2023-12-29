@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>
+            Emergency Contact
+        </title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="viewDetailStyle.css">
+        <meta name="viewport" content="width=device-width",initial-scale=1.0>
+    </head>
+    <body>
+        <div class="container" class="scroll">
+            <div class="title">Emergency Contacts</div>
+            <table class="table table-striped">
+                <tbody id="myTable">
+                    
+                </tbody>
+            </table>
+        </div>
+
+        <script>
+            var myArray1 = 
+                {emp_Id:'00001',first_name:'Kamala',Last_name:'Perera',relationship:'wife',phone_number:'+94567827664'}
+            
+            
+            buildTable(myArray1)
+        
+        
+        
+            function buildTable(data){
+                var table = document.getElementById('myTable')
+        
+                for (const [key, value] of Object.entries(data)) { 
+                    var row1='<tr>';
+                    row1+= '<td>' + 
+                        key + '</td>';
+
+                    row1 += '<td>' + 
+                        value + '</td>';
+                    row1 += '</tr>';
+                    table.innerHTML += row1
+        
+        
+                }
+            }
+        
+        </script>
+
+
+    </body>
+</html>

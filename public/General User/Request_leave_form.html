@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>
+            Request Leave Form
+        </title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="stylesForm.css">
+        <meta name="viewport" content="width=device-width",initial-scale=1.0>
+    </head>
+    <body>
+        <div class="container">
+            <div class="title">Leave Request Form</div>
+            <form action="#">
+                <div class="user-details">
+                    <!-- <div class="input-box">
+                        <span class="details">Employee ID</span>
+                        <input type="text" placeholder="Employee ID" id="emp_ID" required>
+                    </div> -->
+
+                    <div class="input-box">
+                        <span class="details">purpose for leave</span>
+                        <input type="text" placeholder="purpose for leave" id="reason" required>
+                    </div>
+
+                    <!-- <div class="input-box">
+                        <span class="details">Number Of Days Requested</span>
+                        <input type="text" placeholder="Enter Number of Days" id="Ndays" required>
+                    </div> -->
+
+                    <div class="input-box">
+                        <span class="details">Requested Date</span>
+                        <input type="text" placeholder="yyyy-mm-dd" id="date" required>
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Leave Type</span>
+                        <select name="Leave-type" id="leave-type" >
+                            <option value="annual">Annual Leave</option>
+                            <option value="Casual">Casual Leave</option>
+                            <option value="Maternity">Maternity Leave</option>
+                            <option value="NoPay">No pay</option>  
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="buttonSection">
+                    <input type="button"  value="Request" id="submit-btn">
+                </div>
+
+            </form>
+        </div>
+        
+        <script src="../js/applyLeave.js"></script>
+    </body>
+</html>
