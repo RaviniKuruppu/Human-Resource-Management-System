@@ -1,6 +1,22 @@
-# Human Resource Management System
+# Human Resource Management System 🌐💼
 
-This Human Resource Management System is a comprehensive solution developed with a technology stack that includes HTML, CSS, Node.js, JavaScript, Express, and MySQL. 
+Welcome to the Human Resource Management System! This project is designed using HTML, CSS, Node.js, JavaScript, Express, and MySQL to streamline HR-related tasks and enhance organizational efficiency.
+
+## Technologies Used
+- **HTML, CSS:** Fundamental technologies for building the structure and styling of the application.
+  
+- **Node.js, Express:** Back-end technologies that power the server-side logic and API handling.
+  
+- **JavaScript:** The scripting language used for dynamic and interactive functionality.
+  
+- **MySQL:** A relational database management system for robust data storage and retrieval.
+
+## Features
+- **Personal Information Management Module:** Efficiently manage and organize personal information of employees.
+  
+- **Leave Management Module:** Streamline leave requests and approvals for a more organized workflow.
+  
+- **Reporting Module:** Generate and analyze various reports to gain insights into HR-related data.
 
 ## Installation
 
@@ -20,10 +36,3 @@ The frontend will be accessible at http://localhost:8000.
 
 The backend code is located in the `backend` folder, while the frontend code is in the respective `public` folder.
 
-## Key Features
-1. **Personal Information Management Module**: 
-Efficiently manage and organize personal information of employees.
-2. **Leave Management Module**:
-Streamline leave requests and approvals for a more organized workflow.
-3. **Reporting Module**:
-Generate and analyze various reports to gain insights into HR-related data. 
