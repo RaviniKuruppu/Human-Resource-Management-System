@@ -1,6 +1,6 @@
 # Human Resource Management System 🌐💼
 
-Welcome to the Human Resource Management System! This project is designed using HTML, CSS, Node.js, JavaScript, Express, and MySQL to streamline HR-related tasks and enhance organizational efficiency.
+This is the HRM System for Jupiter Apparel company. The system is designed using HTML, CSS, Node.js, JavaScript, Express, and MySQL to streamline HR-related tasks and enhance organizational efficiency.
 
 ## Technologies Used
 - **HTML, CSS:** Fundamental technologies for building the structure and styling of the application.
@@ -30,6 +30,7 @@ To install and run the system locally, follow these steps:
    npm install
 3. **Start the application:**
    ```bash
+   cd backend
    npm start
 
 The frontend will be accessible at http://localhost:8000. 
