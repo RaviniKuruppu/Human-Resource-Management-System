@@ -33,6 +33,14 @@ To install and run the system locally, follow these steps:
    ```bash
    npm start
 
+### Testing Login Credentials
+
+To test the login functionality, use the following credentials:
+
+- **User ID:** `00001`
+- **Password:** `123`
+
+
 The frontend will be accessible at http://localhost:8000/loginPage/. 
 
 The backend code is located in the `backend` folder, while the frontend code is in the respective `public` folder.
