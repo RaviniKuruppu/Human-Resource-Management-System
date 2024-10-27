@@ -37,7 +37,7 @@ To install and run the system locally, follow these steps:
 
 To test the login functionality, use the following credentials:
 
-- **User ID:** `00001`
+- **User ID:** `000001`
 - **Password:** `123`
 
 
