@@ -40,6 +40,22 @@ To test the login functionality, use the following credentials:
 - **User ID:** `000001`
 - **Password:** `123`
 
+### Database Setup
+
+#### Create a MySQL Database Schema
+1. Open your MySQL client (e.g., MySQL Workbench or terminal).
+2. Create a new schema named `project`:
+   ```sql
+   CREATE DATABASE project;
+   USE project;
+3. Execute the `data.sql` and `table.sql` files to set up tables and initial data:
+
+```sql
+SOURCE /backend/src/database/table.sql;
+SOURCE /backend/src/database/data.sql;
+
+4. Edit the `config.js` file to include your MySQL username and password.
+
 
 The frontend will be accessible at http://localhost:8000/loginPage/. 
 
