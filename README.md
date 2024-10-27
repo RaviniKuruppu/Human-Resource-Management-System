@@ -27,10 +27,10 @@ To install and run the system locally, follow these steps:
    git clone https://github.com/RaviniKuruppu/Human-Resource-Management-System.git
 2. **Install dependencies:**
    ```bash
+   cd backend
    npm install
 3. **Start the application:**
    ```bash
-   cd backend
    npm start
 
 The frontend will be accessible at http://localhost:8000/loginPage/. 
