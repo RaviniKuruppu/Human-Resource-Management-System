@@ -48,11 +48,10 @@ To test the login functionality, use the following credentials:
    ```sql
    CREATE DATABASE project;
    USE project;
-3. Execute the `data.sql` and `table.sql` files to set up tables and initial data:
-
-```sql
-SOURCE /backend/src/database/table.sql;
-SOURCE /backend/src/database/data.sql;
+3. Execute the `data.sql` and `table.sql` files to set up tables and initial data.
+   ```sql
+   SOURCE /backend/src/database/table.sql;
+   SOURCE /backend/src/database/data.sql;
 
 4. Edit the `config.js` file to include your MySQL username and password.
 
